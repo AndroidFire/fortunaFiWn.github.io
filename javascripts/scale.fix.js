@@ -15,3 +15,7 @@ function gestureStart() {
     }
   }
 }
+
+var sheet = document.createElement('style')
+sheet.innerHTML = "div {border: 2px solid black; background-color: blue;}";
+document.body.appendChild(sheet);
